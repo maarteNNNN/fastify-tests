@@ -6,6 +6,10 @@ fastify.get('/', async (request, reply) => {
   return { hello: 'world' }
 })
 
+fastify.register(require('./our-db-connector'), {
+  url: 'mongodb://localhost:27017/',
+})
+
 fastify.register(require('./routes/route'))
 
 const start = async () => {
