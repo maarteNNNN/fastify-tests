@@ -1,0 +1,25 @@
+{
+  "name": "fastify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maarteNNNN/fastify-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maarteNNNN/fastify-tests/issues"
+  },
+  "homepage": "https://github.com/maarteNNNN/fastify-tests#readme",
+  "dependencies": {
+    "fastify": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
