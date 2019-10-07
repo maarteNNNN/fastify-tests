@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mongo:
+    container_name: mongo
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=fastify
+      # - MONGO_INITDB_ROOT_USERNAME=fastify
+      # - MONGO_INITDB_ROOT_PASSWORD=test
+    ports:
+      - '27017-27019:27017-27019'
+    expose:
+      - 27017
+      - 27018
+      - 27019
